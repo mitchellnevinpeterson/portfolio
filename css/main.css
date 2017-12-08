@@ -1,0 +1,49 @@
+/*Black text shadow*/
+.black-text-shadow {
+	text-shadow: 2px 2px 1px #000;
+}
+
+/*Gray text shadow*/
+.gray-text-shadow {
+	text-shadow: 2px 2px 1px #8c8c8c;
+}
+
+/*Black Text*/
+.text-black {
+	color: #000;
+}
+
+/*----------------------------------------
+=========Navagation bar===================
+----------------------------------------*/
+
+/*----------------------------------------
+=========Main section===================
+----------------------------------------*/
+
+/*Profile Image size*/
+.profile-pic {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+/*Adding padding to the top of main section*/
+
+.main-section {
+	padding-top: 56px;
+}
+
+/*----------------------------------------
+=========Media Queries===================
+----------------------------------------*/
+@media (max-width: 375px) {
+	h3 {
+		font-size: 18px;
+	}
+	h1 {
+		font-size: 40px !important;
+	}
+	h2 {
+		font-size: 24px !important;
+	}
+}
